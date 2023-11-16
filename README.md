@@ -111,7 +111,23 @@ were adding the Swerve drive implementation to the robot code.
 
 You are now ready to begin making changes.
 
-### 6. Committing the change
+### 7. Add your information
+
+For this tutorial, you'll create a new file under the current school year folder
+in the `data` folder. There is a `template.txt` file containing a template of
+the information to provide. Your new file should be named using your GitHub user
+name and end with `.txt`.
+
+As an example, I added a file, `data/SY2023-2024/edreed.txt`, with the following
+contents:
+
+```text
+name: Ed Reed
+role: Mentor
+year: 13
+```
+
+### 8. Committing the change
 
 Once your change is complete and ready for review, you first need to commit your
 changes and push it to your fork's GitHub repository. To commit your changes in
@@ -131,7 +147,7 @@ push it to your fork's repository. To push the changes to your fork in VS Code:
 2. Type "Git Push" into the search box.
 3. Select the "Git: Push" item.
 
-### Creating a Pull Request
+### 9. Creating a Pull Request
 
 To have your changes reviewed and merged into the `main` branch of the project
 repository, you need to create a Pull Request. To create one:
@@ -147,20 +163,20 @@ repository, you need to create a Pull Request. To create one:
    understanding a reviewer will have of your change.
 6. Press the "Create pull request" button.
 
-### Responding to feedback
+### 10. Responding to feedback
 
 Often times, reviewers will make helpful suggest to improve the code or identify
 things that may have been overlooked. You can make additional changes, commit
 and push them to your fork's repository to automatically update the Pull Request
 in response to feedback.
 
-### Merging your changes
+### 11. Merging your changes
 
 Once the Pull Request has been approved, you can merge your changes to the
 `main` branch of the project repository simply by clicking on the "Merge pull
 request" button.
 
-### Cleaning up
+### 12. Cleaning up
 
 To clean up, follow the steps in the "4. Preparing to make a change" section.
 Since your changes have now been merge, you no longer need the branch. After
